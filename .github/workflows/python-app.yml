@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  flake8:
 
     runs-on: ubuntu-latest
 
@@ -31,6 +31,10 @@ jobs:
       run: |
         # stop the build if there are Python syntax errors or undefined names
         flake8 sudoku.py
+  test:
+    needs: flake8
+    runs-on: ubuntu-latest
+    steps:
     - name: Test with pytest
       run: |
         pytest test_sudoku.py
