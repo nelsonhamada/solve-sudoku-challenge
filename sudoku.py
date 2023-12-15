@@ -18,7 +18,7 @@ def is_valid(puzzle, guess, row, col):
     col_vals = [puzzle[i][col] for i in range(9)]
     if guess in col_vals:
         return False
-    # Eu tinha feito essa verificação com if < 3... porém ao pesquisar sobre
+    # Anteriormente feito a verificação com if < 3... porém ao pesquisar sobre
     # outras soluções achei essa bem mais interessante e reduzida.
     row_square_check = (row // 3) * 3
     col_square_check = (col // 3) * 3
