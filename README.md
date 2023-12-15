@@ -17,5 +17,52 @@ Estudar sobre complexidade de algoritmos foi algo que abriu demais minha cabeça
 Recursividade, backtracking e empilhamento são conceitos que fazem sua cabeça fritar, mas expande MUITO sua visão sobre a lógica de programação. Eu demorei bastante tempo para resolver esse desafio, obviamente por ser um desafio recorrente e popular eu não desenvolvi tudo do zero pois fui influenciado pelos artigos que li, mas fiquei contente que ao ler sobre os assuntos e entender os conceitos eu consegui juntar as peças do quebra-cabeça e finalizar com um código que seja funcional.
 
 
-Nelson Hamada,
-fumiyuki.hamada@gmail.com
+# Para rodar localmente
+
+Clone esse repositório:
+
+```bash
+git clone git@github.com:nelsonhamada/solve-sudoku-challenge.git
+```
+
+Entre no diretório raiz:
+
+```bash
+cd solve-sudoku-callenge
+```
+
+Crie um ambiente isolado de desenvolvimento para evitar modificar suas versões python:
+
+```bash
+python3 -m venv .venv
+```
+
+Ative o ambiente criado:
+
+```bash
+source .venv/bin/activate
+```
+
+Instale as dependências necessárias para o projeto:
+
+```bash
+pip install -r requirements.txt
+```
+
+Para rodar o arquivo principal:
+
+```bash
+python3 sudoky.py
+```
+
+Para rodar os testes:
+
+```bash
+pytest test_sudoku.py
+```
+
+
+## Contato
+
+Linkedin: https://www.linkedin.com/in/nelson-hamada
+Email: fumiyuki.hamada@gmail.com
