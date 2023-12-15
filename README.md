@@ -1,8 +1,8 @@
 # Solve sudoku challenge
-A solve sudoku python algorithm.
+Algoritmo que resolve um problema de Sudoku. (Aplicação com Integração Contínua implementada).
 
 # Sudoku_solver
-Passado um problema de Sudoku não resolvido, no qual os espações a serem preenchidos com os números estão representados por -1 o algoritmo identifica quais espaços precisam ser preenchidos e utiliza da estratégio backtracking para solucionar o problema retornando como True e modificando o array original caso seja possível uma solução. Caso não seja a função retorna um False como resultado de um problema que não pode ser resolvido seguindo as regras do sudoku.
+Passado um problema de Sudoku não resolvido, no qual os espaços a serem preenchidos com os números estão representados por -1 o algoritmo identifica quais espaços precisam ser preenchidos e utiliza da estratégio backtracking para solucionar o problema retornando como True e modificando o array original caso seja possível uma solução. Caso não seja a função retorna um False como resultado de um problema que não pode ser resolvido seguindo as regras do sudoku.
 
 # Sudoku
 As regras do Sudoku são simples. O jogo é baseado em um tabuleiro de 9x9 células, dividido em 9 blocos de 3x3 células. O objetivo é preencher todas as células com números de 1 a 9, seguindo estas regras:
