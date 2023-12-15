@@ -13,9 +13,8 @@ Cada bloco de 3x3 deve conter todos os números de 1 a 9, sem repetição.
 O jogo começa com algumas células já preenchidas, e cada solução de Sudoku é única
 
 # Experiência adquirida no desafio:
-Estudar sobre complexidade de algoritmos foi algo que abriu minha cabeça, fiquei totalmente envolvido com esse assunto e ao ler mais sobre me deparei com esse desafio que era criar um algoritmo capaz de resolver um problema de sudoku utilizando o backtraking e a força bruta. 
-Recursividade, backtracking e empilhamento são conceitos que fazem sua cabeça fritar, mas expande bastante sua visão sobre a lógica de programação.
-Eu demorei bastante tempo para resolver esse desafio, óbviamente por ser um desafio recorrente e popular eu não desenvolvi tudo do zero, mas fiquei contente que ao ler sobre os assuntos e entender os conceitos eu consegui juntar as peças do quebra-cabeça e finalizar com um código que seja funcional.
+Estudar sobre complexidade de algoritmos foi algo que abriu demais minha cabeça, fiquei totalmente envolvido com esse assunto e ao ler mais sobre me deparei com esse desafio que era criar um algoritmo capaz de resolver um problema de sudoku utilizando o backtraking e a força bruta.
+Recursividade, backtracking e empilhamento são conceitos que fazem sua cabeça fritar, mas expande MUITO sua visão sobre a lógica de programação. Eu demorei bastante tempo para resolver esse desafio, obviamente por ser um desafio recorrente e popular eu não desenvolvi tudo do zero pois fui influenciado pelos artigos que li, mas fiquei contente que ao ler sobre os assuntos e entender os conceitos eu consegui juntar as peças do quebra-cabeça e finalizar com um código que seja funcional.
 
 
 Nelson Hamada,
