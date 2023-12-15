@@ -19,7 +19,7 @@ def is_valid(puzzle, guess, row, col):
     if guess in col_vals:
         return False
     # Anteriormente feito a verificação com if < 3... Porém ao pesquisar sobre
-    # outras soluções achei essa bem mais interessante e reduzida.
+    # outras soluções achei essa bem mais interessante e legível.
     row_square_check = (row // 3) * 3
     col_square_check = (col // 3) * 3
 
